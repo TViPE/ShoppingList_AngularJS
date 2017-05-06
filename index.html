@@ -8,11 +8,10 @@
 </head>
 <body ng-app="shoppingList" ng-controller="shoppingListCtrl" class="container-fluid">
 	<div class="container">
-		<div class="wrapper">
-			<div class="title">
+		<div class="wrapper card">
+			<header>
 				<h1>My Shopping List</h1>
-			</div>
-			
+			</header>	
 			<ul>
 				<li ng-repeat="item in lists">
 				{{item}}
